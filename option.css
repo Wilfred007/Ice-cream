@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:ital,wght@0,200;0,300;0,500;1,100;1,200;1,300;1,500&family=Quicksand:wght@300;400;500;600&family=Roboto:wght@300;400&display=swap');
+
+
+
+
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    justify-content: space-between;
+
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+
+
+
+
+.container .header{
+    margin-top: 100px;
+    text-align:center
+}
+
+
+.container .header h3{
+    font-size: 25px;
+    color: var(--white);
+    padding-bottom: .7rem;
+}
+
+
+.container .btn{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.container .btn .car{
+    width: 15px;
+}
+
+
+
+.container .btn a{
+    font-size: 2rem;
+    margin-right: 3rem;
+    color: var(--white);
+    text-decoration: none;
+    background: #2384df;
+    padding: 1rem 2%;
+    border-radius: 30px;
+    
+}

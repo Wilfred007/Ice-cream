@@ -115,7 +115,7 @@ html::-webkit-scrollbar-thumb{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: rgba(114, 112, 112, 0.25) url(https://images.pexels.com/photos/2027041/pexels-photo-2027041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
+    background: rgba(31, 30, 30, 0.25) url(https://images.pexels.com/photos/3353610/pexels-photo-3353610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
     background-size: cover;
     background-position: center center;
     background-blend-mode: darken;
@@ -133,8 +133,9 @@ html::-webkit-scrollbar-thumb{
     font-size: 7rem;
     font-weight: bolder;
     margin-bottom: 2rem;
+    margin-top: 13rem;
     line-height: 7rem;
-    color: var(--black);
+    color: rgb(255, 255, 255);
     text-shadow: var(--box-shadow);
 
 }
@@ -143,6 +144,7 @@ html::-webkit-scrollbar-thumb{
     font-size: 1.8rem;
     line-height: 3rem ;
     margin-bottom: 2rem;
+    color: rgb(0, 0, 0);
 }
 
 .home .homeContent .home-btn{
@@ -380,7 +382,7 @@ section{
 }
 
 .footer{
-    background-color: black;
+    background-color: rgb(12, 12, 12);
 }
 
 
